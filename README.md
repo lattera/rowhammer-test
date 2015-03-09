@@ -15,8 +15,8 @@ of DRAM Disturbance Errors"
 How to run the test:
 
 ```
-./make.sh
-./rowhammer_test
+make depend all
+./obj/rowhammer_test
 ```
 
 The test should work on Linux or Mac OS X, on x86 only.
